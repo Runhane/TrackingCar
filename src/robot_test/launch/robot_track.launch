@@ -1,0 +1,7 @@
+<launch>
+
+    <node pkg="robot_test" type="vel_control" name="MyTest" output="screen"/>
+    <!--node pkg="robot_recognition" type="character_recognition.py" name="MyLine" output="screen" launch-prefix="python2"/-->
+
+    <node pkg="robot_line" type="robot_line" name="MyLine" output="screen"/>
+</launch>

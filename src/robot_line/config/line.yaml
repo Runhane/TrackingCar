@@ -1,0 +1,43 @@
+LowerColor0: 0
+LowerColor1: 0
+LowerColor2: 0
+
+UpperColor0: 180
+UpperColor1: 140
+UpperColor2: 48
+
+CameraHeight: 0.15
+CameraTan: 1.33
+
+Width: 640
+Height: 480
+
+CrossTolerance: 80
+
+UseAffine: false
+
+TargetNum: 50
+
+Cam:
+  intrinsics: [661.0679015472916, 880.6116983880943, 311.18438640969595, 225.4795074147337]
+  distortion: [0.09758932720022256, -0.19051812711805452, -0.0018751786486633493, 0.001900430773618519]
+  TransMatrix: [0.8972184013031613, 0.282078012641473, -123.0184005240627, -0.2258757459064158, 1.311890893375775, 54.23326566170466, -0.0003271539946112689, 0.001254313233822862, 1]
+
+Line_error: 1.0
+Max_distance_between_two_lines: 6.0
+Max_error: 1.300001
+Min_line_len: 30
+
+kPole: 5 #杆子斜率
+LS_k_1: 0.04 #判断两线段是否为同一直线
+Is_Line: 3 #判断两线段是否为同一直线
+
+MinDis: 1 #判断两直线是否是一对
+MaxDis: 20 #判断两直线是否是一对
+MinDisDiff: 5 #判断两直线是否是一对
+MinPole: 5000 #杆子长度最小值
+Ratio: 10 #比值大于1
+
+Aspect_ratio: 20 #长宽比
+
+Time: 10
